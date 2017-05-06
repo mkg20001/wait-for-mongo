@@ -14,28 +14,27 @@ npm install -g wait-for-mongo
 ### As a Command Line tool
 
 ~~~
-wait-for-mongo <mongo url> <timeout millies>
+wait-for-mongo <mongodb url> <timeout in ms>
 ~~~
 
 Or
 
 ~~~
-export MONGO_URL=<mongo url>
-export TIMEOUT=<timeout millies>
+export MONGO_URL=<mongodb url>
+export TIMEOUT=<timeout in ms>
 wait-for-mongo
 ~~~
 
 ### As a NodeJS module
 
 ~~~js
-var waitForMongo = require('wait-for-mongo');
+var waitForMongo = require('wait-for-mongodb');
 
 waitForMongo("mongodb://localhost/comet", {timeout: 1000 * 60* 2}, function(err) {
   if(err) {
-    console.log('timeout exceeded');
+    console.log('timeout');
   } else {
-    console.log('mongodb comes online');
+    console.log('mongodb is online');
   }
 });
 ~~~
-

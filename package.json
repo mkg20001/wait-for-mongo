@@ -1,7 +1,7 @@
 {
-  "name": "wait-for-mongo",
-  "version": "0.2.0",
-  "description": "Simple utility which waits until mongodb to come online",
+  "name": "wait-for-mongodb",
+  "version": "0.3.0",
+  "description": "Simple command-line utility which waits until mongodb comes online",
   "dependencies": {
     "mongodb": "2.2.x"
   },
@@ -9,7 +9,7 @@
   "bin": {
     "wait-for-mongo": "./bin/wait-for-mongo"
   },
-  "author": "Arunoda Susiripala <arunoda.susiripala@gmail.com>",
+  "authors": ["Arunoda Susiripala <arunoda.susiripala@gmail.com>", "Maciej Krüger <mkg20001@gmail.com>"],
   "repository": {
     "type": "git",
     "url": "git://github.com/arunoda/wait-for-mongo.git"
