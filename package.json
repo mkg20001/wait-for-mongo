@@ -9,9 +9,23 @@
   "bin": {
     "wait-for-mongo": "./bin/wait-for-mongo"
   },
-  "authors": ["Arunoda Susiripala <arunoda.susiripala@gmail.com>", "Maciej Krüger <mkg20001@gmail.com>"],
   "repository": {
     "type": "git",
-    "url": "git://github.com/arunoda/wait-for-mongo.git"
-  }
+    "url": "git://github.com/mkg20001/wait-for-mongo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mkg20001/wait-for-mongo/issues"
+  },
+  "homepage": "https://github.com/mkg20001/wait-for-mongo#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb",
+    "cli",
+    "wait"
+  ],
+  "author": "Maciej Krüger <mkg20001@gmail.com>",
+  "license": "GPL-3.0"
 }
